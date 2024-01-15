@@ -4,7 +4,7 @@
   "description": "iterate a string using regular expressions",
   "main": "index.js",
   "scripts": {
-    "build": "rm -rf ./dist && tsc --project . && cp README.md package.json package-lock.json ./dist/"
+    "build": "rm -rf ./dist && tsc --project . && cp README.md package.json ./dist/"
   },
   "repository": {
     "type": "git",
