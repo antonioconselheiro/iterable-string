@@ -1,0 +1,19 @@
+{
+  "name": "Existing Docker Compose (Extend)",
+  "dockerComposeFile": [
+    "docker-compose.yml"
+  ],
+  "service": "iterable-string-dev",
+	"workspaceFolder": "/iterable-string",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+        "ms-vscode.vscode-typescript-next",
+        "eamodio.gitlens",
+        "ms-azuretools.vscode-docker",
+        "wix.vscode-import-cost",
+        "ftsamoyed.theme-pink-cat-boo"
+      ]
+		}
+	}
+}

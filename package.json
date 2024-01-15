@@ -1,0 +1,25 @@
+{
+  "name": "@belomonte/iterable-string",
+  "version": "1.0.0",
+  "description": "iterate a string using regular expressions",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf ./dist && tsc --project . && cp README.md package.json package-lock.json ./dist/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antonioconselheiro/iterable-string.git"
+  },
+  "keywords": [
+    "regex",
+    "iterable",
+    "string",
+    "iterator"
+  ],
+  "author": "António Conselheiro",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/antonioconselheiro/iterable-string/issues"
+  },
+  "homepage": "https://github.com/antonioconselheiro/iterable-string#readme"
+}
