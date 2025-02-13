@@ -5,6 +5,7 @@
   ],
   "service": "iterable-string-dev",
 	"workspaceFolder": "/iterable-string",
+  "postCreateCommand": "./.devcontainer/auth.sh",
 	"customizations": {
 		"vscode": {
 			"extensions": [

@@ -1,13 +1,8 @@
-FROM node:20
+FROM node:22
 
 RUN npm install typescript -g
 
 WORKDIR /iterable-string
-
-COPY ./.gitconfig /root/.gitconfig
-COPY ./.ssh /root/.ssh
-RUN chmod 600 -R /root/.ssh
-RUN ssh-add -D && ssh-add /root/.ssh/id_ed25519 || true
 
 # Teclado português com horário brasileiro
 ENV LANG=C.UTF-8

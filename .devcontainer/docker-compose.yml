@@ -1,5 +1,3 @@
-version: '3.9'
-
 services:
   iterable-string-dev:
     image: iterable-string-dev
